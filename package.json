@@ -26,5 +26,14 @@
   "repository": "github:eithan1231/whois-light",
   "author": "Eithan Hersey-Tuit",
   "license": "ISC",
-  "homepage": "https://github.com/eithan1231/whois-light"
+  "homepage": "https://github.com/eithan1231/whois-light",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security",
+    "mocha": "^9.2.2"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "net": "^1.0.2"
+  }
 }
