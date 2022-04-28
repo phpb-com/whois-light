@@ -1,7 +1,7 @@
 const WhoisLight = require("../index.js");
 
 // The domain we want to query, and options for the whois server
-const domain = "google.com";
+const domain = "amazon.jp";
 
 // Additional options to the query
 const options = {
@@ -26,7 +26,7 @@ const options = {
     console.log(
       `The domain ${whoisResults[
         "Domain Name"
-      ].toLowerCase()} is registered with ${whoisResults["Registrar"]}`
+      ]} is registered with ${whoisResults["Registrar"]}`
     );
     console.log(
       `Domain is due to expire, ${whoisResults["Registry Expiry Date"]}`

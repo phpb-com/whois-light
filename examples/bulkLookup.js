@@ -2,14 +2,14 @@ const WhoisLight = require("../index.js");
 
 // The domains we want to query, and options for the whois server
 const domains = [
-  "google.com",
+  "nic.com",
   "example.com",
-  "gmail.com",
-  "facebook.com",
-  "eithan.net",
-  "eithan.me",
-  "youtube.com",
-  "wikipedia.org",
+  "midominio.do",
+  "amazon.jp",
+  "nic.red",
+  "aws.cloud",
+  "xxx.fun",
+  "example.org",
 ];
 
 // Additional options to the query
@@ -49,6 +49,7 @@ const options = {
         console.log(
           `Successfully queried information for ${domainLookup} who is registered with ${whoisResults[domainLookup]["Registrar"]}`
         );
+	console.log(JSON.stringify(whoisResults[domainLookup]));
       }
     }
   } catch {

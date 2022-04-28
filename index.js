@@ -99,6 +99,11 @@ class WhoisLight {
       return Promise.reject(new Error("Failed to lookup"));
     }
 
+    // Force english for .jp domains
+    if (/\.jp$/.test(name)) {
+      name = name + "/e";
+    };
+
     const domainQuery =
       whoisServer.query === null
         ? name
