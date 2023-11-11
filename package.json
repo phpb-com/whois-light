@@ -28,7 +28,7 @@
   "license": "ISC",
   "homepage": "https://github.com/eithan1231/whois-light",
   "devDependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "fs": "^0.0.1-security",
     "mocha": "^9.2.2"
   },
